@@ -15,7 +15,7 @@ import { zh_CN } from "./translations/zh_CN.js"
 import { zh_TW } from "./translations/zh_TW.js"
 
 i18next.use(initReactI18next).init({
-    lng: localStorage.getItem("lng") || "en",
+    lng: localStorage.getItem("lng") || "zh_CN",
     debug: true,
     resources: {
         de: { translation: de },
